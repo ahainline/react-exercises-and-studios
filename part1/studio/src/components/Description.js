@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Description.module.css';
 
-function RecipeAuthor() {
+const RecipeAuthor = () => {
     const authorLink = 'https://thefoodcharlatan.com/';
     const authorPhoto = 'https://thefoodcharlatan.com/wp-content/uploads/2023/01/headshot-2023.jpg';
     const authorName = 'Karen at The Food Charlatan';
   return (
     <div className = {styles.recipeAuthorBlock}>
-        <img src={authorPhoto} alt='Photo of Karen' className={styles.authorPhoto} />
+        <img src={authorPhoto} alt='Photo of Karen' className={styles.imageUpdates} />
         <div>
             <h3>{authorName}</h3>
             <a href={authorLink}>The Food Charlatan</a>

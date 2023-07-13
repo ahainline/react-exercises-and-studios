@@ -5,10 +5,8 @@
 
 .imageUpdates{
     object-fit: contain;
-}
-
-.authorPhoto {
     height: auto;
     width: 200px;
     border-radius: 25%;
+    margin: 5px;
 }
