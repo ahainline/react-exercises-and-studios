@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import HobbyIntroduction from './components/Introduction';
+import MyProjects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
       <h1>My Hobby: Cross Stitch</h1>
       <HobbyIntroduction />
+      <MyProjects />
     </div>
   );
 }
